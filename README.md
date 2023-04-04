@@ -15,3 +15,9 @@ The travel time in a linked list is longer than a binary tree because every node
 
 3. What are the depth, the height, the size of a binary tree?  
 The nodes in a binary tree are connected by a edge.  The sequence formed by a nodes and edges are called a path.  The depth also known as level is the number of edges from the root which starts at 0 to 3.  The height of a node is the number of edges on the longest path between itself and a leaf.  Every node has a height and the root node is 1.  The height of a tree is the number of edges on the longest path between the root and a leaf.  The size of a binary tree is the total number of nodes.  
+
+4. What are the different traversal methods to go through a binary tree?  
+Traversal is the process of visiting each node in a binary tree.  There are three traversal methods: In-order Traversal, Pre-order Traversal and Post-order Traversal.  The In-order Traversal method is when the left subtree is visited first, then the root and finally it moves to the right subtree.  The Pre-order Traversal method is when the root node is visited first, then the left subtree and finally the right subtree.  The Post-order Traversal method is when the left subtree is visited first, then the right subtree and finally the root.  
+
+5. What is a complete, a full, a perfect, a balanced binary tree?  
+A complete binary tree is when all levels except the last level is filled and all nodes are as left as possible. 
